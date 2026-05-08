@@ -31,6 +31,12 @@ export default function V2Page() {
   const advItems = t.raw('advantages.items') as Array<{ title: string; desc: string }>;
   const svcItems = t.raw('services.items') as Array<{ title: string; cta: string }>;
   const svcDescs = t.raw('services.descriptions') as string[];
+  const svcPhotos = [
+    'https://images.unsplash.com/photo-1758523670991-ee93bc48d81d?w=800&q=80&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1741655262435-4890ab9918fa?w=800&q=80&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1682088423985-9eb51e3160f9?w=800&q=80&auto=format&fit=crop',
+    'https://plus.unsplash.com/premium_photo-1682088432727-ecbc08381a63?w=800&q=80&auto=format&fit=crop',
+  ];
   const priceItems = t.raw('pricing.items') as Array<{ people: string; price: string; unit: string }>;
   const revItems = t.raw('reviews.items') as Array<{ name: string; location: string; text: string; tag: string }>;
   const cities = t.raw('map.cities') as string[];
@@ -49,7 +55,7 @@ export default function V2Page() {
             <div className="flex items-center gap-0.5 ml-3 border border-[#E2DDD3] rounded overflow-hidden">
               {['pl', 'ru'].map(l => (<button key={l} onClick={() => switchLocale(l)} className={`px-3 py-1.5 text-xs font-semibold uppercase transition-all ${locale === l ? 'bg-[#1F4D3F] text-white' : 'text-[#4A524D]'}`}>{l}</button>))}
             </div>
-            <button onClick={() => setModalOpen(true)} className="ml-3 px-8 py-4 bg-[#1F4D3F] text-white text-[0.85rem] font-medium uppercase tracking-wider rounded-sm hover:bg-[#163B30] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2.5">{t('nav.cta')} →</button>
+            <button onClick={() => setModalOpen(true)} className="ml-3 px-5 py-2.5 bg-[#1F4D3F] text-white text-[0.75rem] font-medium uppercase tracking-wider rounded-sm hover:bg-[#163B30] hover:-translate-y-0.5 transition-all inline-flex items-center gap-2">{t('nav.cta')} →</button>
           </nav>
           <button onClick={() => setMobileOpen(!mobileOpen)} className="lg:hidden text-2xl">☰</button>
         </div>
@@ -72,9 +78,10 @@ export default function V2Page() {
           <div className="relative" style={{ aspectRatio: '4/5' }}>
             <div className="relative w-full h-full bg-[#F2EDE5] border border-[#E2DDD3] overflow-hidden">
               <div className="absolute inset-3 border border-[#D4B97A]/40 pointer-events-none z-10" />
-              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#E5EDE9] to-[#F2EDE5] relative">
-                <img src="/logo.png" alt="KC" className="w-48 h-48 object-contain opacity-80" />
-                <span className="absolute top-4 left-6 font-heading text-[7rem] font-extrabold text-white/40 leading-none tracking-tighter pointer-events-none">01</span>
+              <div className="w-full h-full relative">
+                <img src="https://images.unsplash.com/photo-1588894123111-01fc7864f37c?w=1400&q=80&auto=format&fit=crop" alt="KingdomCars" className="w-full h-full object-cover" style={{ filter: 'contrast(1.02) saturate(0.92)' }} />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#1F4D3F]/[0.04] to-[#B89043]/[0.06]" />
+                <span className="absolute top-4 left-6 font-heading text-[7rem] font-extrabold text-white/45 leading-none tracking-tighter pointer-events-none" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.3)' }}>01</span>
                 <span className="absolute top-[18px] left-[18px] w-7 h-7 border-t-2 border-l-2 border-[#B89043]" />
                 <span className="absolute top-[18px] right-[18px] w-7 h-7 border-t-2 border-r-2 border-[#B89043]" />
                 <span className="absolute bottom-[18px] left-[18px] w-7 h-7 border-b-2 border-l-2 border-[#B89043]" />
@@ -112,7 +119,9 @@ export default function V2Page() {
           </div>
           <div className="relative bg-[#E5EDE9] overflow-hidden" style={{ aspectRatio: '5/6' }}>
             <div className="absolute -bottom-8 -right-8 w-24 h-24 border-2 border-[#B89043] z-0" />
-            <div className="w-full h-full flex items-center justify-center relative z-10"><img src="/logo.png" alt="KC" className="w-40 h-40 object-contain opacity-60" /></div>
+            <div className="w-full h-full relative z-10 overflow-hidden">
+              <img src="https://plus.unsplash.com/premium_photo-1682088436727-0b27d5d230c7?w=1000&q=80&auto=format&fit=crop" alt="Team" className="w-full h-full object-cover" style={{ filter: 'contrast(1.02) saturate(0.92)' }} />
+            </div>
           </div>
         </div>
       </section>
@@ -132,7 +141,7 @@ export default function V2Page() {
         <div className="max-w-[1240px] mx-auto px-8">
           <div className="mb-16"><Eyebrow>{t('services.sectionTitle')}</Eyebrow><h2 className="font-heading text-[clamp(2rem,4vw,3rem)] font-semibold">{t('services.sectionTitle')}</h2></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {svcItems.map((svc, i) => (<div key={i} className="bg-white border border-[#E2DDD3] grid grid-cols-1 sm:grid-cols-[1fr_1.2fr] hover:border-[#1F4D3F] hover:-translate-y-1 hover:shadow-[0_24px_50px_rgba(31,77,63,0.08)] transition-all overflow-hidden"><div className="bg-[#E5EDE9] flex items-center justify-center min-h-[200px] p-8"><span className="font-heading text-6xl font-bold text-[#1F4D3F] opacity-15">{String(i + 1).padStart(2, '0')}</span></div><div className="p-8 flex flex-col gap-4"><div className="font-heading text-[0.85rem] text-[#B89043] tracking-[0.2em]">{String(i + 1).padStart(2, '0')} / {String(svcItems.length).padStart(2, '0')}</div><h3 className="font-heading text-[1.4rem] font-bold leading-tight">{svc.title}</h3><p className="text-[0.88rem] text-[#4A524D] leading-relaxed flex-1">{svcDescs[i]}</p><button onClick={() => setModalOpen(true)} className="inline-flex items-center gap-2 text-[0.85rem] font-medium text-[#1F4D3F] border-b border-[#B89043] pb-1 hover:gap-3.5 transition-all w-fit">{svc.cta} →</button></div></div>))}
+            {svcItems.map((svc, i) => (<div key={i} className="bg-white border border-[#E2DDD3] grid grid-cols-1 sm:grid-cols-[1fr_1.2fr] hover:border-[#1F4D3F] hover:-translate-y-1 hover:shadow-[0_24px_50px_rgba(31,77,63,0.08)] transition-all overflow-hidden"><div className="bg-[#E5EDE9] relative min-h-[200px] overflow-hidden"><img src={svcPhotos[i]} alt={svc.title} className="w-full h-full object-cover absolute inset-0" loading="lazy" style={{ filter: 'contrast(1.02) saturate(0.92)' }} /></div><div className="p-8 flex flex-col gap-4"><div className="font-heading text-[0.85rem] text-[#B89043] tracking-[0.2em]">{String(i + 1).padStart(2, '0')} / {String(svcItems.length).padStart(2, '0')}</div><h3 className="font-heading text-[1.4rem] font-bold leading-tight">{svc.title}</h3><p className="text-[0.88rem] text-[#4A524D] leading-relaxed flex-1">{svcDescs[i]}</p><button onClick={() => setModalOpen(true)} className="inline-flex items-center gap-2 text-[0.85rem] font-medium text-[#1F4D3F] border-b border-[#B89043] pb-1 hover:gap-3.5 transition-all w-fit">{svc.cta} →</button></div></div>))}
           </div>
         </div>
       </section>
