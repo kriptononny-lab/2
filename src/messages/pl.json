@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "KingdomCars — Niezawodny transport towarowy w Polsce",
+    "description": "Profesjonalna obsługa, terminowość i bezpieczeństwo Twojego towaru."
+  },
+  "nav": {
+    "benefits": "Korzyści",
+    "services": "Usługi",
+    "pricing": "Ceny",
+    "reviews": "Recenzje",
+    "contact": "Kontakt",
+    "cta": "Zostaw prośbę"
+  },
+  "hero": {
+    "badge": "Szybko · Bezpiecznie · Na czas · Tanio",
+    "title1": "Niezawodny transport",
+    "title2": "towarowy",
+    "titleHighlight": "w Polsce",
+    "flag": "🇵🇱",
+    "description": "Zamów transport swojego ładunku — zajmiemy się wszystkim! Profesjonalna obsługa, terminowość i bezpieczeństwo Twojego towaru.",
+    "ctaButton": "Zostaw prośbę",
+    "servicesButton": "Nasze usługi"
+  },
+  "badges": {
+    "experience": "Ponad 5 lat doświadczenia",
+    "experienceSub": "Na rynku od 2019 roku",
+    "availability": "Pracujemy 24/7",
+    "availabilitySub": "Zawsze do Twojej dyspozycji",
+    "coverage": "W całej Polsce",
+    "coverageSub": "Transport na terenie kraju"
+  },
+  "marquee": "KINGDOMCARS ♔ TRANSPORT TOWAROWY ♔ WARSZAWA ♔ 24/7 ♔ LOGISTYKA ♔ POLSKA ♔ PRZEPROWADZKI ♔ BEZPIECZEŃSTWO",
+  "trust": {
+    "carrier": "Sprawdzony przewoźnik",
+    "carrierSub": "Licencjonowany od 2019",
+    "google": "4.9★ Google Reviews",
+    "googleSub": "Ponad 127 opinii klientów",
+    "insurance": "Pełne ubezpieczenie",
+    "insuranceSub": "OC + AC + Cargo",
+    "invoice": "Faktura VAT",
+    "invoiceSub": "Dla firm i osób prywatnych"
+  },
+  "counters": {
+    "clients": "Zadowolonych klientów",
+    "clientsNum": "3200",
+    "clientsSuffix": "+",
+    "years": "Na rynku",
+    "yearsNum": "5",
+    "yearsSuffix": "+",
+    "available": "Zawsze dostępni",
+    "availableNum": "24",
+    "availableSuffix": "/7",
+    "safety": "Bezpieczeństwa",
+    "safetyNum": "100",
+    "safetySuffix": "%"
+  },
+  "advantages": {
+    "sectionTitle": "Atuty naszej współpracy",
+    "items": [
+      {
+        "title": "3200+ zadowolonych klientów",
+        "desc": "Ponad 3200 klientów, którzy nam zaufali i korzystają z naszych usług regularnie."
+      },
+      {
+        "title": "5 lat na rynku",
+        "desc": "Od 5 lat z powodzeniem działamy na rynku usług transportowych w Polsce."
+      },
+      {
+        "title": "Kontrola transportu ładunków",
+        "desc": "Pełna kontrola nad każdym etapem transportu — od odbioru do dostarczenia."
+      },
+      {
+        "title": "Ekspresowa dostawa",
+        "desc": "Zapewniamy ekspresową dostawę szybciej niż firmy posiadające własne magazyny."
+      },
+      {
+        "title": "Elastyczne rozwiązania",
+        "desc": "Nasza firma oferuje elastyczne rozwiązania logistyczne dopasowane do potrzeb klienta."
+      },
+      {
+        "title": "Elastyczne formy płatności",
+        "desc": "Oferujemy usługi w ramach umowy i elastyczne formy płatności."
+      }
+    ],
+    "quote": "Wybierając naszą firmę, zyskują Państwo wiarygodnego partnera, który zapewnia kompleksowe i wysokiej jakości usługi transportu towarów. Cenimy Państwa czas i bezpieczeństwo, dlatego oferujemy wyłącznie sprawdzone rozwiązania i indywidualne podejście do każdego klienta."
+  },
+  "services": {
+    "sectionTitle": "Świadczone przez nas usługi",
+    "items": [
+      {
+        "title": "Transport mieszkań",
+        "cta": "Wybierz"
+      },
+      {
+        "title": "Transport magazynów",
+        "cta": "Wybierz"
+      },
+      {
+        "title": "Wywóz śmieci",
+        "cta": "Wybierz"
+      },
+      {
+        "title": "Transport biur",
+        "cta": "Wybierz"
+      }
+    ],
+    "descriptions": [
+      "Kompleksowa przeprowadzka mieszkań w Warszawie i okolicach z pełnym zabezpieczeniem.",
+      "Przeprowadzki magazynów i obiektów handlowych z zachowaniem ciągłości pracy.",
+      "Wywóz starych mebli, sprzętu AGD i odpadów z opróżnianiem mieszkań i piwnic.",
+      "Przeprowadzki biur i firm w Warszawie z minimalizacją czasu przestoju w pracy."
+    ],
+    "prices": [
+      "od 150 zł",
+      "od 250 zł",
+      "od 200 zł",
+      "od 300 zł"
+    ],
+    "times": [
+      "min. 2 godz",
+      "min. 4 godz",
+      "min. 2 godz",
+      "min. 4 godz"
+    ]
+  },
+  "map": {
+    "title1": "Działamy w",
+    "titleHighlight": "całej Polsce",
+    "description": "Dostarczamy ładunki do każdego miasta i regionu. Posiadamy zaufanych partnerów logistycznych, dzięki czemu transport przebiega szybko, terminowo i bezpiecznie.",
+    "cities": [
+      "Warszawa",
+      "Kraków",
+      "Gdańsk",
+      "Wrocław",
+      "Poznań",
+      "Łódź",
+      "Katowice",
+      "Lublin",
+      "i wiele innych"
+    ],
+    "sectionLabel": "Pokrycie"
+  },
+  "pricing": {
+    "sectionTitle": "Ceny",
+    "items": [
+      {
+        "people": "1 osoba",
+        "price": "150",
+        "unit": "zł /h"
+      },
+      {
+        "people": "2 osoby",
+        "price": "200",
+        "unit": "zł /h"
+      },
+      {
+        "people": "3 osoby",
+        "price": "250",
+        "unit": "zł /h"
+      },
+      {
+        "people": "3+ osoby",
+        "price": "300",
+        "unit": "zł /h"
+      }
+    ],
+    "note": "Ceny są przybliżone za godzinę"
+  },
+  "cta": {
+    "title": "Potrzebujesz pomocy specjalisty? Pomożemy",
+    "subtitle": "Zostaw prośbę w 3 prostych krokach",
+    "step1title": "Krok 1 z 3 — Co przewozimy?",
+    "step2title": "Krok 2 z 3 — Ile osób potrzeba?",
+    "step3title": "Krok 3 z 3 — Twoje dane",
+    "options1": [
+      "Mieszkanie",
+      "Biuro",
+      "Magazyn",
+      "Wywóz śmieci"
+    ],
+    "options2": [
+      "1 osoba",
+      "2 osoby",
+      "3 osoby",
+      "3+ osoby"
+    ],
+    "namePlaceholder": "Imię i nazwisko",
+    "phonePlaceholder": "Numer telefonu (+48...)",
+    "consent": "Wyrażam zgodę na przetwarzanie danych osobowych",
+    "next": "Dalej",
+    "back": "Wstecz",
+    "submit": "Wysłać prośbę",
+    "thanks": "Dziękujemy! Nasz specjalista skontaktuje się z Tobą wkrótce."
+  },
+  "reviews": {
+    "sectionTitle": "Opinie naszych klientów",
+    "items": [
+      {
+        "name": "Agnieszka",
+        "location": "Warszawa · 2 tygodnie temu",
+        "text": "Bardzo rzetelna i profesjonalna ekipa. Szybka, sprawna i bezpieczna przeprowadzka. Polecam każdemu, kto szuka pewnej firmy.",
+        "tag": "Przeprowadzka"
+      },
+      {
+        "name": "Paweł K.",
+        "location": "Warszawa · miesiąc temu",
+        "text": "Wszystko poszło sprawnie i bez stresu. Usługa zrealizowana szybko i w przystępnej cenie. Chłopaki wynieśli wszystko, nie uszkodzili niczego.",
+        "tag": "Transport"
+      },
+      {
+        "name": "Kasia L.",
+        "location": "Warszawa · 3 tygodnie temu",
+        "text": "Profesjonalnie, szybko, bezproblemowo. Polecam w 100%. Bardzo dobra obsługa i sprawne wykonanie usługi. Cena adekwatna do jakości.",
+        "tag": "Przeprowadzka"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Skontaktuj się z nami",
+    "phone": "+48 506 873 074",
+    "phone2": "+48 532 491 876",
+    "email": "inc.mars.com@gmail.com",
+    "address": "02-004 Warszawa, ul. Tytusa Chałubińskiego 9 lok. 2",
+    "hours": "24/7 — zawsze do dyspozycji"
+  },
+  "footer": {
+    "tagline": "Niezawodny transport towarowy w Polsce",
+    "copyright": "© 2024 KingdomCars. Wszelkie prawa zastrzeżone."
+  },
+  "index": {
+    "title": "Wybierz wariant strony",
+    "v1": "Wariant 1 — Klasyczny",
+    "v1desc": "Ciemna tema, parallax, animowany furgon",
+    "v2": "Wariant 2 — Elegancki",
+    "v2desc": "Jasna tema, spokojne kolory, typografia seryfowa",
+    "v3": "Wariant 3 — Terminal",
+    "v3desc": "Tech-styl, monospace, hazard tape"
+  },
+  "about": {
+    "eyebrow": "O firmie",
+    "title": "Profesjonalizm w każdym detalu.",
+    "p1": "Od 2019 roku jesteśmy jedną z najbardziej zaufanych firm transportowych w Warszawie. Specjalizujemy się w przeprowadzkach mieszkań, biur, magazynów oraz wywozie zbędnych mebli i sprzętu.",
+    "p2": "Cenimy Państwa czas i bezpieczeństwo, dlatego oferujemy wyłącznie sprawdzone rozwiązania i indywidualne podejście do każdego klienta.",
+    "signature": "Zespół KingdomCars",
+    "signatureTitle": "Warszawa, Polska · Od 2019"
+  }
+}
